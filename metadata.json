@@ -1,0 +1,10 @@
+{
+  "name": "Tabungan Santri Digital",
+  "description": "Aplikasi tabungan digital pesantren dengan scanner barcode kartu santri, fitur top-up otomatis terjadwal (harian, mingguan, bulanan), pencatatan setoran, penarikan uang saku, dan cetak kartu berbarcode.",
+  "requestFramePermissions": [
+    "camera"
+  ],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

@@ -1,0 +1,23 @@
+@import "tailwindcss";
+
+@media print {
+  body * {
+    visibility: hidden;
+  }
+  #printable-card, #printable-card *,
+  #printable-receipt, #printable-receipt *,
+  #printable-batch, #printable-batch * {
+    visibility: visible;
+  }
+  #printable-card,
+  #printable-receipt,
+  #printable-batch {
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    margin: 0;
+    padding: 10px;
+    box-shadow: none !important;
+  }
+}
